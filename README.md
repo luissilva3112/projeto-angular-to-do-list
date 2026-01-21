@@ -5,6 +5,7 @@
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 Este projeto é uma aplicação de gerenciamento de tarefas de alta performance, desenvolvida para explorar as fronteiras mais recentes do ecossistema Angular. O foco principal foi a implementação de uma arquitetura **Zoneless** e a reatividade granular com **Signals API**.
+- **Obs: Eu utilizei a configuração provideZonelessChangeDetection para garantir a melhor performance com Signals. Mantive a biblioteca zone.js apenas para evitar erros de inicialização do framework e garantir compatibilidade com possíveis dependências externas, mas a detecção de mudanças da aplicação em si ocorre de forma granular e moderna, sem a intervenção do Zone.**
 
 ---
 
@@ -66,7 +67,7 @@ Siga os passos abaixo para executar o projeto em sua máquina local:
    ```
    
 4. **Instale o Zone.js:**
-* Observação: Embora o projeto utilize a arquitetura Zoneless, a biblioteca é mantida para garantir a compatibilidade de inicialização e de dependências externas, evitando erros.
+* Observação: Embora o projeto utilize a arquitetura Zoneless, a biblioteca é mantida para garantir a compatibilidade de inicialização e de dependências externas, evitando erros. 
   
    ```bash
     npm install zone.js
