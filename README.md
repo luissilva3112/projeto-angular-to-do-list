@@ -53,24 +53,30 @@ Siga os passos abaixo para executar o projeto em sua máquina local:
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/luissilva3112/projeto-angular-to-do-list.git](https://github.com/luissilva3112/projeto-angular-to-do-list.git)
-   ``` 
+   ```
+   
 2. **Entre na pasta do projeto:**
    ```bash
    cd projeto-angular-to-do-list
    ```
+   
 3. **Instale as dependências:*
    ```bash
    npm install
    ```
+   
 4. **Instale o Zone.js:**
-* Observação: Embora o projeto utilize a arquitetura Zoneless, a biblioteca é mantida para garantir a compatibilidade de inicialização e de dependências externas, evitando o erros.
+* Observação: Embora o projeto utilize a arquitetura Zoneless, a biblioteca é mantida para garantir a compatibilidade de inicialização e de dependências externas, evitando erros.
+  
    ```bash
     npm install zone.js
    ```
+   
 5. **Inicie o projeto:**
    ```bash
     ng serve
    ```
+   
 6. **Acesse:**
    ```bash
     http://localhost:4200
